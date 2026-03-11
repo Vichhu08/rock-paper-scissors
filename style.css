@@ -1,3 +1,76 @@
 *{
-    background-color: rgb(15, 10, 61);
+    margin : 0;
+    padding : 0;
+    background-color: rgb(26, 26, 28);
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header{
+    margin: 50px;
+    font-size: 45px;
+    font-weight: 550;
+    font-family:monospace;
+    color: rgb(67, 204, 211);
+
+}
+
+.instruction{
+    margin: 50px 0 20px 0;
+    font-size:28px;
+    font-weight: 400;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.buttons{
+    
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons img{
+    width: 200px;
+    height: 300px;
+    
+}
+button{
+    width: 250px;
+    height: 350px;
+    border: 2px solid chocolate;
+    border-radius: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    transition: all 0.3s ease;
+
+}
+
+button span{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(249, 163, 146);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    cursor:crosshair;
+    /*background-color: rgb(36, 36, 36);*/
+    transform: scale(1.1);
+    box-shadow: 0 3px 14px rgba(227, 187, 101, 0.567);
+
+}
+
+
+
